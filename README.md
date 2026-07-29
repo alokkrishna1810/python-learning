@@ -2,4 +2,4 @@
 
 ## Table of Contents
 
-1. [Installing Python and First Program](./Lecture01)
+1. [Python Install and First Program](./Lecture01)
