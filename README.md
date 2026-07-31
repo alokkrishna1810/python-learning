@@ -10,3 +10,4 @@
 6. [Internal Working of Python](./Lecture06)
 7. [Numbers in Python](./Lecture07)
 8. [Strings in Python](./Lecture08)
+9. [List in Python](./Lecture09)
