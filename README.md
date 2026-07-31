@@ -8,3 +8,4 @@
 4. [Immutable and Mutable in Python](./Lecture04)
 5. [Data Types - Big Picture](./Lecture05)
 6. [Internal Working of Python](./Lecture06)
+7. [Numbers in Python](./Lecture07)
