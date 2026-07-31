@@ -35,10 +35,6 @@ Open Python shell.
 
 ```bash
 >>> username
-```
-
-**Output:**
-```
 'hitesh'
 ```
 
@@ -50,10 +46,6 @@ Now, change the value of `username`.
 
 ```bash
 >>> username
-```
-
-**Output:**
-```
 'chaiaurcode'
 ```
 
@@ -86,19 +78,11 @@ Once the **Garbage Collector** ensures there is no reference to the String Objec
 
 ```bash
 >>> x
-```
-
-**Output:**
-```
 10
 ```
 
 ```bash
 >>> y
-```
-
-**Output:**
-```
 10
 ```
 
@@ -110,10 +94,6 @@ Now, change the value of `x`.
 
 ```bash
 >>> y
-```
-
-**Output:**
-```
 10
 ```
 

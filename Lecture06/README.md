@@ -16,19 +16,11 @@ Now, check the reference count of a random number, let's say `24601` or a string
 
 ```bash
 >>> sys.getrefcount(24601)
-```
-
-**Output:**
-```
 3221225472
 ```
 
 ```bash
 >>> sys.getrefcount('hitesh')
-```
-
-**Output:**
-```
 3221225472
 ```
 
@@ -36,18 +28,10 @@ Even if you check for `'h'` or `1`, you will get the repeated results.
 
 ```bash
 >>> sys.getrefcount('h')
-```
-
-**Output:**
-```
 3221225472
 ```
 ```bash
 >>> sys.getrefcount(1)
-```
-
-**Output:**
-```
 3221225472
 ```
 
@@ -65,10 +49,6 @@ Open Python shell.
 
 ```bash
 >>> a
-```
-
-**Output:**
-```
 3
 ```
 
@@ -80,10 +60,6 @@ Now, if you assign a value of different data type to `a`. There will be no error
 
 ```bash
 >>> a
-```
-
-**Output:**
-```
 'chaiaurcode'
 ```
 
@@ -117,19 +93,11 @@ Open Python shell.
 
 ```bash
 >>> a
-```
-
-**Output:**
-```
 5
 ```
 
 ```bash
 >>> b
-```
-
-**Output:**
-```
 2
 ```
 
@@ -141,10 +109,6 @@ Now add:
 
 ```bash
 >>> a
-```
-
-**Output:**
-```
 7
 ```
 
@@ -174,10 +138,6 @@ Lists are mutable.
 
 ```bash
 >>> myListTwo = myListOne
-```
-
-**Output:**
-```
 5
 ```
 
@@ -198,10 +158,6 @@ Now, assign a String object to `myListOne`.
 
 ```bash
 >>> myListTwo
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
@@ -239,10 +195,6 @@ Check if `myListTwo` changed.
 
 ```bash
 >>> myListTwo
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
@@ -271,19 +223,11 @@ Here, we assigned `[1, 2, 3]` to `myListOne`. This does refer to the same object
 
 ```bash
 >>> l1
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
 ```bash
 >>> l2
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
@@ -297,19 +241,11 @@ Now, if we check `l1` and `l2`. Both changed.
 
 ```bash
 >>> l1
-```
-
-**Output:**
-```
 [44, 2, 3]
 ```
 
 ```bash
 >>> l2
-```
-
-**Output:**
-```
 [44, 2, 3]
 ```
 
@@ -361,19 +297,11 @@ Check if both `p1` and `p2` changed.
 
 ```bash
 >>> p1
-```
-
-**Output:**
-```
 [55, 2, 3]
 ```
 
 ```bash
 >>> p2
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
@@ -409,10 +337,6 @@ In this scenario, the momeent we assigned `[1, 2, 3]` to `p2`, the reference of 
 
 ```bash
 >>> h2
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
@@ -424,19 +348,11 @@ If you change any element of `h1`, it will not reflect to `h2` as `h2` to pointi
 
 ```bash
 >>> h1
-```
-
-**Output:**
-```
 [55, 2, 3]
 ```
 
 ```bash
 >>> h2
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
@@ -501,19 +417,11 @@ In Python, the `==` operator checks for value equality, while the `is` operator 
 
 ```bash
 >>> m
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
 ```bash
 >>> n
-```
-
-**Output:**
-```
 [1, 2, 3]
 ```
 
@@ -521,19 +429,11 @@ Now, check for equality.
 
 ```bash
 >>> m == n
-```
-
-**Output:**
-```
 True
 ```
 
 ```bash
 >>> m is n
-```
-
-**Output:**
-```
 True
 ```
 
@@ -551,19 +451,11 @@ Check equality:
 
 ```bash
 >>> m == n
-```
-
-**Output:**
-```
 True
 ```
 
 ```bash
 >>> m is n
-```
-
-**Output:**
-```
 False
 ```
 

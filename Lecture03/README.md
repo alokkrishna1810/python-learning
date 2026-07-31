@@ -59,10 +59,6 @@ Go to `01_basics` directory in the terminal inside VS Code. And open REPL.
 
 ```bash
 >>> print("chai")
-```
-
-**Output:**
-```
 chai
 ```
 
@@ -70,19 +66,11 @@ chai
 
 ```bash
 >>> 2*2
-```
-
-**Output:**
-```
 4
 ```
 
 ```bash
 >>> 3+5
-```
-
-**Output:**
-```
 8
 ```
 
@@ -92,10 +80,6 @@ Testing is the real purpose of using REPL.
 
 ```bash
 >>> "chai" * 4
-```
-
-**Output:**
-```
 'chaichaichaichai'
 ```
 
@@ -111,10 +95,6 @@ This will not give you any output. But when you write the variable name and pres
 
 ```bash
 >>> score
-```
-
-**Output:**
-```
 100
 ```
 
@@ -122,10 +102,6 @@ If you try to get the value of any undeclared or uninitialized variable, it will
 
 ```bash
 >>> tea
-```
-
-**Output:**
-```
 NameError: name 'tea' is not defined
 ```
 
@@ -146,10 +122,6 @@ This does not give you any output. Now you can use the code defined in `os` modu
 ```bash
 # Gets the current working directory
 >>> os.getcwd()
-```
-
-**Output:**
-```
 'C:\\Users\\Alok Krishna\\Desktop\\python-learning\\Lecture01\\01_basics'
 ```
 
@@ -166,10 +138,6 @@ Each line in a loop should be written after 4 spaces.
 >>> for c in "chai":
 ...     print(c)
 ...
-```
-
-**Output:**
-```
 c
 h
 a
@@ -185,10 +153,6 @@ import sys
 ```bash
 # Gets the system platform
 >>> sys.platform
-```
-
-**Output:**
-```
 'win32'
 ```
 
@@ -198,10 +162,6 @@ Ensure you are inside `01_basics` folder in the terminal. You already have a Pyt
 
 ```bash
 import hello_chai
-```
-
-**Output:**
-```
 chai aur python
 lemon tea
 ```
@@ -212,10 +172,6 @@ You can access methods by `module_name.method_name()`.
 
 ```bash
 >>> hello_chai.chai("mint tea")
-```
-
-**Output:**
-```
 mint tea
 ```
 
@@ -238,10 +194,6 @@ If you try to access these new variables, you will get an error.
 
 ```bash
 >>> hello_chai.chai_one
-```
-
-**Output:**
-```
 AttributeError: module 'hello_chai' has no attribute 'chai_one'
 ```
 
@@ -256,10 +208,6 @@ Now reload the module.
 
 ```bash
 >>> reload(hello_chai)
-```
-
-**Output:**
-```
 chai aur python
 lemon tea
 <module 'hello_chai' from 'C:\\Users\\Alok Krishna\\Desktop\\python-learning\\Lecture01\\01_basics\\hello_chai.py'>
@@ -269,18 +217,10 @@ Now, your module is updated in your REPL.
 
 ```bash
 >>> hello_chai.chai_one
-```
-
-**Output:**
-```
 'lemon tea'
 ```
 
 ```bash
 >>> hello_chai.chai_three
-```
-
-**Output:**
-```
 masala chai
 ```
