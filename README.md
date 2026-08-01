@@ -13,3 +13,4 @@
 9. [List in Python](./Lecture09)
 10. [Dictionary in Python](./Lecture10)
 11. [Tuples in Python](./Lecture11)
+12. [Conditionals in Python](./Lecture12)
