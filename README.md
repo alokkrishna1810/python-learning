@@ -11,3 +11,4 @@
 7. [Numbers in Python](./Lecture07)
 8. [Strings in Python](./Lecture08)
 9. [List in Python](./Lecture09)
+10. [Dictionary in Python](./Lecture10)

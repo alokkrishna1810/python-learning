@@ -14,6 +14,8 @@ Open Python shell
 ['Black', 'Green', 'Oolong', 'White']
 ```
 
+> You can also create a list using `list()` method.
+
 ### Accessing with index
 
 List has 0-based indexing similar to Strings.
