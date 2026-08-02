@@ -50,7 +50,7 @@ else:
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 01_solution.py 
+$ python 01_solution.py 
 Adult
 
 ```
@@ -77,7 +77,7 @@ print("Ticket price for you is $", price)
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 02_solution.py 
+$ python 02_solution.py 
 Ticket price for you is $ 10
 
 ```
@@ -112,7 +112,7 @@ print("Grade:", grade)
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 03_solution.py 
+$ python 03_solution.py 
 Grade: B
 
 ```
@@ -139,7 +139,7 @@ if fruit == "Banana":
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 04_solution.py 
+$ python 04_solution.py 
 Ripe
 
 ```
@@ -166,7 +166,7 @@ print(activity)
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 05_solution.py 
+$ python 05_solution.py 
 Go for a walk
 
 ```
@@ -193,7 +193,7 @@ print("AI recommends you the transport of", transport)
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 06_solution.py 
+$ python 06_solution.py 
 AI recommends you the transport of Bike
 
 ```
@@ -219,7 +219,7 @@ print("Order:", coffee)
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 07_solution.py 
+$ python 07_solution.py 
 Order: Medium coffee with an extra shot
 
 ```
@@ -247,7 +247,7 @@ print("Password strength is:", strength)
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 08_solution.py 
+$ python 08_solution.py 
 Password strength is: Strong
 
 ```
@@ -270,7 +270,7 @@ else:
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 09_solution.py 
+$ python 09_solution.py 
 2026 is NOT a leap year
 
 ```
@@ -296,7 +296,7 @@ else:
 Open Terminal and go to `02_conditionals` folder inside it.
 
 ```bash
-python 10_solution.py 
+$ python 10_solution.py 
 AI recommends Senior cat food.
 
 ```

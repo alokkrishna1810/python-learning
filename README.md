@@ -14,3 +14,4 @@
 10. [Dictionary in Python](./Lecture10)
 11. [Tuples in Python](./Lecture11)
 12. [Conditionals in Python](./Lecture12)
+13. [Loops in Python](./Lecture13)
