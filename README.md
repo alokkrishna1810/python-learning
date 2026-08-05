@@ -18,3 +18,4 @@
 14. [Behind the scene of Loops in Python](./Lecture14)
 15. [Functions in Python](./Lecture15)
 16. [Scopes and Closure in Python](./Lecture16)
+17. [OOP in Python](./Lecture17)
