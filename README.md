@@ -19,3 +19,4 @@
 15. [Functions in Python](./Lecture15)
 16. [Scopes and Closure in Python](./Lecture16)
 17. [OOP in Python](./Lecture17)
+18. [Decorators in Python](./Lecture18)
